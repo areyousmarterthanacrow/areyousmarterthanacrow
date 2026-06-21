@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the square root of 144?", "choices": ["12", "14", "24", "72"], "answer": 0 },
-        { "q": "Who wrote Romeo and Juliet?", "choices": ["Dickens", "Shakespeare", "Tolstoy", "Homer"], "answer": 1 },
-        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Go", "Au", "Ag"], "answer": 2 },
-        { "q": "How many bones are in the adult human body?", "choices": ["198", "206", "212", "180"], "answer": 1 },
-        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Earth", "Jupiter"], "answer": 3 },
-        { "q": "In what year did World War II end?", "choices": ["1945", "1939", "1918", "1950"], "answer": 0 },
-        { "q": "What is often called the powerhouse of the cell?", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Membrane"], "answer": 1 },
-        { "q": "What is 15% of 200?", "choices": ["15", "20", "30", "45"], "answer": 2 },
-        { "q": "Which element has the atomic number 1?", "choices": ["Helium", "Oxygen", "Carbon", "Hydrogen"], "answer": 3 },
-        { "q": "What is the freezing point of water in Fahrenheit?", "choices": ["32", "0", "100", "212"], "answer": 0 }
+        { "q": "What is 7 x 8?", "choices": ["54", "56", "58", "63"], "answer": 1 },
+        { "q": "Who was the first President of the United States?", "choices": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], "answer": 2 },
+        { "q": "What is the chemical symbol for oxygen?", "choices": ["O", "Ox", "Og", "Om"], "answer": 0 },
+        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
+        { "q": "What is the largest mammal?", "choices": ["Elephant", "Blue whale", "Giraffe", "Hippopotamus"], "answer": 1 },
+        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "Africa", "Australia"], "answer": 2 },
+        { "q": "What is the boiling point of water in Celsius?", "choices": ["90", "100", "110", "212"], "answer": 1 },
+        { "q": "Who is credited with the theory of gravity after watching an apple fall?", "choices": ["Einstein", "Galileo", "Newton", "Darwin"], "answer": 2 },
+        { "q": "What is 100 divided by 4?", "choices": ["20", "25", "30", "40"], "answer": 1 },
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Gold", "Iron", "Diamond", "Quartz"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky on a clear day?", "choices": ["Green", "Blue", "Red", "Purple"], "answer": 1 },
-        { "q": "How many legs does a dog have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
-        { "q": "What is 2 + 2?", "choices": ["3", "5", "22", "4"], "answer": 3 },
-        { "q": "Which animal says \"moo\"?", "choices": ["Cow", "Cat", "Duck", "Pig"], "answer": 0 },
-        { "q": "What do bees make?", "choices": ["Milk", "Honey", "Bread", "Web"], "answer": 1 },
-        { "q": "How many days are in a week?", "choices": ["5", "10", "7", "12"], "answer": 2 },
-        { "q": "What is the opposite of hot?", "choices": ["Warm", "Wet", "Big", "Cold"], "answer": 3 },
-        { "q": "Which is bigger, an elephant or a mouse?", "choices": ["Elephant", "Mouse", "Same size", "Neither"], "answer": 0 },
-        { "q": "What do you use to see?", "choices": ["Ears", "Eyes", "Nose", "Feet"], "answer": 1 },
-        { "q": "What is frozen water called?", "choices": ["Steam", "Rain", "Ice", "Mud"], "answer": 2 }
+        { "q": "How many fingers are on one hand?", "choices": ["3", "5", "10", "2"], "answer": 1 },
+        { "q": "What sound does a cat make?", "choices": ["Woof", "Moo", "Meow", "Quack"], "answer": 2 },
+        { "q": "What is 1 + 1?", "choices": ["1", "2", "3", "11"], "answer": 1 },
+        { "q": "What color is grass?", "choices": ["Blue", "Green", "Red", "Pink"], "answer": 1 },
+        { "q": "Which one is wet?", "choices": ["Sand", "Water", "A rock", "Paper"], "answer": 1 },
+        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Shoes", "Scarf"], "answer": 2 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
+        { "q": "What do cows give us to drink?", "choices": ["Juice", "Water", "Milk", "Soda"], "answer": 2 },
+        { "q": "Is the sun hot or cold?", "choices": ["Cold", "Hot", "Wet", "Soft"], "answer": 1 },
+        { "q": "What do you sleep in at night?", "choices": ["Bath", "Car", "Bed", "Box"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Parrot",
       "iq": 80,
       "questions": [
-        { "q": "How many continents are there?", "choices": ["5", "6", "7", "8"], "answer": 2 },
-        { "q": "What is the capital of France?", "choices": ["Berlin", "Paris", "Rome", "Madrid"], "answer": 1 },
-        { "q": "What gas do plants take in for photosynthesis?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 2 },
-        { "q": "How many sides does a triangle have?", "choices": ["3", "4", "5", "6"], "answer": 0 },
-        { "q": "What planet do we live on?", "choices": ["Mars", "Venus", "Jupiter", "Earth"], "answer": 3 },
-        { "q": "What is H2O commonly known as?", "choices": ["Salt", "Water", "Air", "Sugar"], "answer": 1 },
-        { "q": "Which is the largest ocean?", "choices": ["Atlantic", "Indian", "Pacific", "Arctic"], "answer": 2 },
-        { "q": "How many minutes are in an hour?", "choices": ["30", "45", "90", "60"], "answer": 3 },
-        { "q": "What is the tallest land animal?", "choices": ["Giraffe", "Elephant", "Horse", "Camel"], "answer": 0 },
-        { "q": "What color do you get mixing blue and yellow?", "choices": ["Purple", "Green", "Orange", "Brown"], "answer": 1 }
+        { "q": "What is the capital of Italy?", "choices": ["Rome", "Paris", "Madrid", "Athens"], "answer": 0 },
+        { "q": "How many colors are in a rainbow?", "choices": ["5", "6", "7", "9"], "answer": 2 },
+        { "q": "What is the largest land animal?", "choices": ["Rhino", "Elephant", "Giraffe", "Hippo"], "answer": 1 },
+        { "q": "Which planet is closest to the sun?", "choices": ["Venus", "Earth", "Mercury", "Mars"], "answer": 2 },
+        { "q": "How many legs does a spider have?", "choices": ["6", "8", "10", "4"], "answer": 1 },
+        { "q": "What do we call frozen rain that falls in winter?", "choices": ["Snow", "Steam", "Fog", "Dew"], "answer": 0 },
+        { "q": "What is 5 x 2?", "choices": ["7", "10", "12", "15"], "answer": 1 },
+        { "q": "What gas do humans need to breathe?", "choices": ["Carbon dioxide", "Helium", "Oxygen", "Hydrogen"], "answer": 2 },
+        { "q": "What is the capital of England?", "choices": ["Dublin", "London", "Manchester", "Liverpool"], "answer": 1 },
+        { "q": "How many months are in a year?", "choices": ["10", "11", "12", "13"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the derivative of x squared?", "choices": ["x", "2x", "x cubed", "2"], "answer": 1 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"], "answer": 1 },
-        { "q": "The speed of light is approximately how many km/s?", "choices": ["3,000", "30,000", "300,000", "3,000,000"], "answer": 2 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Perth"], "answer": 2 },
-        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "4", "5"], "answer": 2 },
-        { "q": "What is the smallest prime number?", "choices": ["0", "1", "2", "3"], "answer": 2 },
-        { "q": "What is the currency of Japan?", "choices": ["Won", "Yuan", "Yen", "Ringgit"], "answer": 2 },
-        { "q": "What is the longest river in the world?", "choices": ["Amazon", "Nile", "Yangtze", "Mississippi"], "answer": 1 },
-        { "q": "What is the value of pi to two decimal places?", "choices": ["3.12", "3.14", "3.16", "3.41"], "answer": 1 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Mars", "Mercury", "Saturn"], "answer": 1 }
+        { "q": "What is the square root of 169?", "choices": ["11", "12", "13", "14"], "answer": 2 },
+        { "q": "Who wrote the novel \"1984\"?", "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"], "answer": 1 },
+        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": 2 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sd", "Na", "S"], "answer": 2 },
+        { "q": "How many sides does a hexagon have?", "choices": ["5", "6", "7", "8"], "answer": 1 },
+        { "q": "In what year did humans first land on the Moon?", "choices": ["1965", "1969", "1972", "1959"], "answer": 1 },
+        { "q": "What is the largest organ in the human body?", "choices": ["Liver", "Brain", "Skin", "Lungs"], "answer": 2 },
+        { "q": "What is 12 squared?", "choices": ["124", "132", "144", "154"], "answer": 2 },
+        { "q": "Which gas makes up most of Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": 1 },
+        { "q": "What is the smallest country in the world by area?", "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the value of e (Euler's number) to two decimals?", "choices": ["2.62", "2.72", "3.14", "1.62"], "answer": 1 },
-        { "q": "Heisenberg's uncertainty principle relates which pair?", "choices": ["Mass and charge", "Position and momentum", "Time and temperature", "Force and area"], "answer": 1 },
-        { "q": "What is the integral of 1/x with respect to x?", "choices": ["x ln x + C", "1/x^2 + C", "ln|x| + C", "-1/x^2 + C"], "answer": 2 },
-        { "q": "The Schwarzschild radius is associated with what?", "choices": ["Black holes", "Neutron stars", "Comets", "Quasiparticles"], "answer": 0 },
-        { "q": "What is the most abundant element in the universe?", "choices": ["Oxygen", "Carbon", "Helium", "Hydrogen"], "answer": 3 },
-        { "q": "The Riemann hypothesis concerns the zeros of which function?", "choices": ["Gamma function", "Zeta function", "Beta function", "Error function"], "answer": 1 },
-        { "q": "What is the time complexity of binary search?", "choices": ["O(n)", "O(n log n)", "O(log n)", "O(1)"], "answer": 2 },
-        { "q": "In E = mc squared, what does c represent?", "choices": ["A constant of friction", "Charge", "Speed of light", "Specific heat"], "answer": 2 },
-        { "q": "What is the chemical formula for benzene?", "choices": ["C6H6", "CH4", "C2H6", "C6H12O6"], "answer": 0 },
-        { "q": "What is the 7th prime number?", "choices": ["13", "15", "17", "19"], "answer": 2 }
+        { "q": "What is the derivative of sin(x)?", "choices": ["-sin(x)", "cos(x)", "-cos(x)", "tan(x)"], "answer": 1 },
+        { "q": "What is Avogadro's number approximately?", "choices": ["6.02 x 10^23", "3.14 x 10^10", "1.60 x 10^-19", "9.81 x 10^8"], "answer": 0 },
+        { "q": "Which particle mediates the electromagnetic force?", "choices": ["Gluon", "Photon", "Graviton", "Neutrino"], "answer": 1 },
+        { "q": "What is the square root of -1 called in mathematics?", "choices": ["e", "pi", "The imaginary unit i", "Infinity"], "answer": 2 },
+        { "q": "What does DNA stand for?", "choices": ["Deoxyribonucleic acid", "Dinucleic acid", "Diribonucleic acid", "Deoxyribose nucleotide"], "answer": 0 },
+        { "q": "What is the time complexity of merge sort?", "choices": ["O(n)", "O(n^2)", "O(n log n)", "O(log n)"], "answer": 2 },
+        { "q": "What is the only even prime number?", "choices": ["0", "1", "2", "4"], "answer": 2 },
+        { "q": "In an isolated system, which quantity never decreases?", "choices": ["Energy", "Entropy", "Temperature", "Pressure"], "answer": 1 },
+        { "q": "What is the value of the golden ratio to two decimals?", "choices": ["1.41", "1.62", "2.72", "3.14"], "answer": 1 },
+        { "q": "What is the chemical symbol for potassium?", "choices": ["P", "Po", "K", "Pt"], "answer": 2 }
       ]
     }
   ]
