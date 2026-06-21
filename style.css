@@ -1,4 +1,4 @@
-/* Smarter Than A Crow — black/white, deadpan, minimal. */
+/* Smarter Than A Crow — black/white, deadpan, minimal. Mobile-first. */
 
 * {
   box-sizing: border-box;
@@ -13,46 +13,68 @@
   --dim: #333;
 }
 
-html, body {
+html {
   height: 100%;
+  /* Don't let mobile browsers auto-inflate our deliberately sized text. */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
+  min-height: 100%;
   background: var(--bg);
   color: var(--fg);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
+  /* Subtle white flash on tap instead of the default blue box. */
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.12);
 }
 
 #app {
-  min-height: 100vh;
   width: 100%;
 }
 
 /* --- Screens --- */
 .screen {
+  position: relative; /* anchor the absolute top bars to the screen */
   min-height: 100vh;
+  min-height: 100dvh; /* respects mobile browser chrome; falls back to vh */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  gap: 4px;
   max-width: 640px;
   margin: 0 auto;
   text-align: center;
+  /* Respect notches / rounded corners on the sides and bottom. */
+  padding: 24px;
+  padding-top: max(24px, env(safe-area-inset-top));
+  padding-bottom: max(24px, env(safe-area-inset-bottom));
+  padding-left: max(20px, env(safe-area-inset-left));
+  padding-right: max(20px, env(safe-area-inset-right));
 }
 
 .screen[hidden] {
   display: none;
 }
 
-/* --- Typography --- */
+/* Content-heavy screens flow from the top and scroll, with room reserved for
+   the absolutely-positioned back button so it never overlaps the title. */
+#screen-opponents,
+#screen-rewards {
+  justify-content: flex-start;
+  padding-top: calc(72px + env(safe-area-inset-top));
+}
+
+/* --- Typography (fluid sizes so nothing overflows a small phone) --- */
 .title {
-  font-size: 1.8rem;
+  font-size: clamp(1.4rem, 6vw, 1.8rem);
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   letter-spacing: -0.02em;
+  overflow-wrap: break-word;
 }
 
 .subtitle {
@@ -65,12 +87,14 @@ body {
 }
 
 .question {
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 5.2vw, 1.5rem);
   font-weight: 700;
-  margin: 32px 0;
-  min-height: 3em;
+  margin: clamp(20px, 5vh, 32px) 0;
+  min-height: 2.5em;
   display: flex;
   align-items: center;
+  justify-content: center;
+  overflow-wrap: break-word;
 }
 
 .muted {
@@ -79,16 +103,17 @@ body {
 }
 
 .big-score {
-  font-size: 4rem;
+  font-size: clamp(3rem, 16vw, 4rem);
   font-weight: 700;
-  margin: 16px 0;
+  margin: 12px 0;
   letter-spacing: -0.03em;
 }
 
 .verdict {
-  font-size: 1.4rem;
+  font-size: clamp(1.15rem, 5vw, 1.4rem);
   font-weight: 700;
   margin-bottom: 12px;
+  overflow-wrap: break-word;
 }
 
 /* --- Buttons --- */
@@ -101,11 +126,17 @@ body {
   cursor: pointer;
   padding: 14px 24px;
   font-size: 1rem;
-  transition: opacity 0.12s ease;
+  min-height: 44px; /* comfortable touch target */
+  transition: opacity 0.12s ease, background 0.12s ease, color 0.12s ease;
+  touch-action: manipulation; /* kill the 300ms tap delay */
+  overflow-wrap: break-word;
 }
 
-.btn:hover {
-  opacity: 0.82;
+/* Hover only where it's a real pointer; avoids sticky :hover on touch. */
+@media (hover: hover) {
+  .btn:hover {
+    opacity: 0.82;
+  }
 }
 
 .btn:active {
@@ -120,34 +151,41 @@ body {
 }
 
 .btn-big {
-  font-size: 1.3rem;
-  padding: 20px 32px;
+  font-size: clamp(1.1rem, 4.6vw, 1.3rem);
+  padding: clamp(16px, 3.5vh, 20px) 24px;
   max-width: 480px;
   width: 100%;
 }
 
 .btn-small {
   font-size: 0.85rem;
-  padding: 8px 14px;
+  padding: 10px 14px;
+  min-height: 40px;
   background: var(--bg);
   color: var(--fg);
 }
 
-.btn-small:hover {
-  background: var(--fg);
-  color: var(--bg);
-  opacity: 1;
+@media (hover: hover) {
+  .btn-small:hover {
+    background: var(--fg);
+    color: var(--bg);
+    opacity: 1;
+  }
 }
 
 /* --- Layout helpers --- */
-.top-bar {
+.top-bar,
+.test-header {
   position: absolute;
-  top: 20px;
+  top: max(16px, env(safe-area-inset-top));
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  align-items: center;
+  gap: 8px;
+  padding-left: max(16px, env(safe-area-inset-left));
+  padding-right: max(16px, env(safe-area-inset-right));
 }
 
 .center {
@@ -172,19 +210,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
   width: 100%;
   background: var(--bg);
   color: var(--fg);
   border: none;
   font-family: inherit;
-  padding: 18px 20px;
+  padding: 16px 18px;
+  min-height: 60px;
   cursor: pointer;
   text-align: left;
+  touch-action: manipulation;
 }
 
-.opponent-row:hover:not(:disabled) {
-  background: var(--fg);
-  color: var(--bg);
+@media (hover: hover) {
+  .opponent-row:hover:not(:disabled) {
+    background: var(--fg);
+    color: var(--bg);
+  }
 }
 
 .opponent-row:disabled {
@@ -193,13 +236,16 @@ body {
 }
 
 .opponent-row .op-name {
-  font-size: 1.2rem;
+  font-size: clamp(1.05rem, 4.5vw, 1.2rem);
   font-weight: 700;
+  overflow-wrap: break-word;
 }
 
 .opponent-row .op-meta {
   text-align: right;
   font-size: 0.85rem;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .opponent-row .op-locked {
@@ -213,11 +259,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  gap: 12px;
+  padding: 16px 18px;
 }
 
 .info-row .label {
   font-weight: 700;
+  overflow-wrap: break-word;
 }
 
 .empty-note {
@@ -227,16 +275,6 @@ body {
 }
 
 /* --- Test choices --- */
-.test-header {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 24px;
-}
-
 .choices {
   display: flex;
   flex-direction: column;
@@ -250,15 +288,25 @@ body {
   color: var(--fg);
   border: 2px solid var(--fg);
   font-family: inherit;
-  font-size: 1.05rem;
+  font-size: clamp(0.95rem, 4vw, 1.05rem);
   font-weight: 600;
-  padding: 16px 20px;
+  padding: 16px 18px;
+  min-height: 52px;
   cursor: pointer;
   text-align: left;
+  overflow-wrap: break-word;
+  touch-action: manipulation;
   transition: background 0.12s ease, color 0.12s ease;
 }
 
-.choice:hover {
+@media (hover: hover) {
+  .choice:hover {
+    background: var(--fg);
+    color: var(--bg);
+  }
+}
+
+.choice:active {
   background: var(--fg);
   color: var(--bg);
 }
@@ -266,7 +314,7 @@ body {
 /* --- Trophy banner --- */
 .trophy-banner {
   border: 2px solid var(--fg);
-  padding: 16px 20px;
+  padding: 16px 18px;
   margin: 20px 0;
   width: 100%;
   max-width: 480px;
@@ -288,4 +336,25 @@ body {
 .trophy-banner .trophy-name {
   font-size: 1.2rem;
   font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+/* --- Short / landscape screens: stop vertically centering so tall content
+       can't tuck under the top bar or get clipped — let it scroll instead. --- */
+@media (max-height: 560px) {
+  .screen {
+    justify-content: flex-start;
+  }
+  #screen-test,
+  #screen-result {
+    padding-top: calc(64px + env(safe-area-inset-top));
+  }
+}
+
+/* Tighter gutters on very narrow phones. */
+@media (max-width: 360px) {
+  .screen {
+    padding-left: max(14px, env(safe-area-inset-left));
+    padding-right: max(14px, env(safe-area-inset-right));
+  }
 }
