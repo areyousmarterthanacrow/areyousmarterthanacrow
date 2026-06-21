@@ -339,6 +339,63 @@ body {
   overflow-wrap: break-word;
 }
 
+/* --- Result review ("what you got wrong") --- */
+.review {
+  width: 100%;
+  max-width: 480px;
+  margin: 12px 0 24px;
+  text-align: left;
+}
+
+.review[hidden] {
+  display: none;
+}
+
+.review-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.review-item {
+  border: 2px solid var(--fg);
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.review-q {
+  font-weight: 700;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+.review-line {
+  font-size: 0.95rem;
+  overflow-wrap: break-word;
+}
+
+.review-line.wrong {
+  color: var(--muted);
+  text-decoration: line-through;
+  margin-bottom: 4px;
+}
+
+.review-line.right {
+  color: var(--fg);
+  font-weight: 700;
+}
+
+/* A long review can exceed the viewport, so a reviewed result top-aligns and
+   scrolls instead of vertically centering (which would clip the top). */
+#screen-result.has-review {
+  justify-content: flex-start;
+  padding-top: max(28px, env(safe-area-inset-top));
+}
+
 /* --- Short / landscape screens: stop vertically centering so tall content
        can't tuck under the top bar or get clipped — let it scroll instead. --- */
 @media (max-height: 560px) {

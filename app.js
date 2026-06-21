@@ -238,7 +238,8 @@
       name: op.name,
       questions: op.questions,
       index: 0,
-      correct: 0
+      correct: 0,
+      responses: [] // { index, chosen, correct } per answered question
     };
 
     $("test-opponent").textContent = "vs " + op.name;
@@ -287,9 +288,15 @@
 
   function answer(choiceIndex) {
     var q = session.questions[session.index];
-    if (q && choiceIndex === q.answer) {
+    var correct = !!(q && choiceIndex === q.answer);
+    if (correct) {
       session.correct += 1;
     }
+    session.responses.push({
+      index: session.index,
+      chosen: choiceIndex,
+      correct: correct
+    });
     session.index += 1;
 
     if (session.index >= session.questions.length) {
@@ -319,14 +326,23 @@
       if (awardTrophy(state, "lost_to_timmy")) newTrophy = "lost_to_timmy";
     }
 
+    // Collect the questions the user got wrong, in order, for the review list.
+    var review = session.responses
+      .filter(function (r) {
+        return !r.correct;
+      })
+      .map(function (r) {
+        return { q: session.questions[r.index], chosen: r.chosen };
+      });
+
     saveState(state);
-    renderResult(id, correctCount, didBeat, newTrophy, state);
+    renderResult(id, correctCount, didBeat, newTrophy, state, review);
   }
 
   // ---------------------------------------------------------------------------
   // SCREEN: Result
   // ---------------------------------------------------------------------------
-  function renderResult(id, correctCount, didBeat, newTrophy, state) {
+  function renderResult(id, correctCount, didBeat, newTrophy, state, review) {
     var op = opponentsById[id];
     var name = op ? op.name : id;
     var total = op && Array.isArray(op.questions) ? op.questions.length : WIN_SCORE;
@@ -357,7 +373,66 @@
       trophyEl.innerHTML = "";
     }
 
+    renderReview(review || []);
+
     show("result");
+  }
+
+  // Build the "what you got wrong" list. Each item shows the question, the
+  // answer the user picked, and the correct answer. Hidden when nothing's wrong.
+  function renderReview(review) {
+    var screen = $("screen-result");
+    var box = $("result-review");
+    box.innerHTML = "";
+
+    if (!review.length) {
+      box.hidden = true;
+      screen.classList.remove("has-review");
+      return;
+    }
+
+    box.hidden = false;
+    // Long review can exceed the viewport — let the screen scroll from the top.
+    screen.classList.add("has-review");
+
+    var heading = document.createElement("div");
+    heading.className = "review-title";
+    heading.textContent = "What you got wrong";
+    box.appendChild(heading);
+
+    review.forEach(function (item) {
+      var q = item.q || {};
+      var choices = Array.isArray(q.choices) ? q.choices : [];
+
+      var yourText =
+        item.chosen >= 0 && item.chosen < choices.length
+          ? choices[item.chosen]
+          : "(no answer)";
+      var correctText =
+        typeof q.answer === "number" && q.answer < choices.length
+          ? choices[q.answer]
+          : "(unknown)";
+
+      var card = document.createElement("div");
+      card.className = "review-item";
+
+      var qEl = document.createElement("div");
+      qEl.className = "review-q";
+      qEl.textContent = typeof q.q === "string" ? q.q : "(question unavailable)";
+
+      var yourEl = document.createElement("div");
+      yourEl.className = "review-line wrong";
+      yourEl.textContent = "✗ You: " + yourText;
+
+      var rightEl = document.createElement("div");
+      rightEl.className = "review-line right";
+      rightEl.textContent = "✓ Answer: " + correctText;
+
+      card.appendChild(qEl);
+      card.appendChild(yourEl);
+      card.appendChild(rightEl);
+      box.appendChild(card);
+    });
   }
 
   // ---------------------------------------------------------------------------
