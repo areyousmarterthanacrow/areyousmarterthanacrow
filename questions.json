@@ -6,16 +6,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "How many sides does a pentagon have?", "choices": ["5", "4", "6", "7"], "answer": 0 },
-        { "q": "What is the capital of Brazil?", "choices": ["Rio de Janeiro", "Brasília", "São Paulo", "Buenos Aires"], "answer": 1 },
-        { "q": "What is 9 x 9?", "choices": ["72", "78", "81", "86"], "answer": 2 },
-        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Guglielmo Marconi", "Nikola Tesla", "Alexander Graham Bell"], "answer": 3 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Fe", "In", "Ir", "Fm"], "answer": 0 },
-        { "q": "What is the longest bone in the human body?", "choices": ["Humerus", "Femur", "Tibia", "Fibula"], "answer": 1 },
-        { "q": "What is the approximate speed of sound in air?", "choices": ["1500 m/s", "660 m/s", "330 m/s", "3000 m/s"], "answer": 2 },
-        { "q": "How many strings does a standard guitar have?", "choices": ["4", "5", "7", "6"], "answer": 3 },
-        { "q": "What is the capital of Russia?", "choices": ["St. Petersburg", "Moscow", "Minsk", "Kyiv"], "answer": 1 },
-        { "q": "In what century did Gutenberg's printing press appear?", "choices": ["13th", "14th", "16th", "15th"], "answer": 3 }
+        { "q": "What is 13 × 7?", "choices": ["81", "91", "95", "101"], "answer": 1 },
+        { "q": "What organ pumps blood through the human body?", "choices": ["Brain", "Liver", "Heart", "Kidneys"], "answer": 2 },
+        { "q": "What is the chemical symbol for carbon?", "choices": ["C", "Ca", "Co", "Cr"], "answer": 0 },
+        { "q": "Who wrote the play 'Hamlet'?", "choices": ["Chaucer", "Marlowe", "Dickens", "Shakespeare"], "answer": 3 },
+        { "q": "What is the square root of 256?", "choices": ["16", "14", "18", "20"], "answer": 0 },
+        { "q": "In which ocean does the Titanic wreck lie?", "choices": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Arctic Ocean"], "answer": 2 },
+        { "q": "How many degrees are in a right angle?", "choices": ["45", "90", "120", "180"], "answer": 1 },
+        { "q": "What is the tallest type of grass?", "choices": ["Wheat", "Reed", "Bamboo", "Sugarcane"], "answer": 2 },
+        { "q": "What is the result of 200 ÷ 8?", "choices": ["20", "28", "30", "25"], "answer": 3 },
+        { "q": "Which continent is South Africa located on?", "choices": ["Asia", "Africa", "South America", "Australia"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sun?", "choices": ["Green", "Black", "Blue", "Yellow"], "answer": 3 },
-        { "q": "How many toes does a human have?", "choices": ["5", "10", "15", "20"], "answer": 1 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Water", "Rock", "Air", "Mud"], "answer": 0 },
-        { "q": "What does a dog say?", "choices": ["Meow", "Moo", "Woof", "Oink"], "answer": 2 },
-        { "q": "What shape is a ball?", "choices": ["Square", "Circle", "Triangle", "Rectangle"], "answer": 1 },
-        { "q": "Which of these is a fruit?", "choices": ["Carrot", "Potato", "Apple", "Broccoli"], "answer": 2 },
-        { "q": "How many eyes do you have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What do fish live in?", "choices": ["Trees", "Air", "Water", "Dirt"], "answer": 2 },
-        { "q": "What is 3 + 0?", "choices": ["1", "2", "4", "3"], "answer": 3 },
-        { "q": "What day comes after Monday?", "choices": ["Sunday", "Friday", "Wednesday", "Tuesday"], "answer": 3 }
+        { "q": "What sound does a cow make?", "choices": ["Moo", "Quack", "Bark", "Roar"], "answer": 0 },
+        { "q": "What color is a banana?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 3 },
+        { "q": "How many legs does a cat have?", "choices": ["2", "4", "6", "8"], "answer": 1 },
+        { "q": "What is 1 + 2?", "choices": ["4", "2", "5", "3"], "answer": 3 },
+        { "q": "What do you use to cut paper?", "choices": ["Scissors", "Spoon", "Brush", "Fork"], "answer": 0 },
+        { "q": "Where does rain come from?", "choices": ["Caves", "Trees", "The sky", "The ground"], "answer": 2 },
+        { "q": "What do we call baby dogs?", "choices": ["Kittens", "Puppies", "Chicks", "Cubs"], "answer": 1 },
+        { "q": "What comes after the number 5?", "choices": ["7", "8", "4", "6"], "answer": 3 },
+        { "q": "What is the opposite of big?", "choices": ["Heavy", "Loud", "Small", "Fast"], "answer": 2 },
+        { "q": "Which animal hops and has a pouch?", "choices": ["Tiger", "Kangaroo", "Zebra", "Bear"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Parrot",
       "iq": 80,
       "questions": [
-        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Valencia", "Seville"], "answer": 0 },
-        { "q": "What color do you get mixing red and white?", "choices": ["Orange", "Purple", "Pink", "Yellow"], "answer": 2 },
-        { "q": "What is the largest continent?", "choices": ["Europe", "Africa", "North America", "Asia"], "answer": 3 },
-        { "q": "How many letters are in the English alphabet?", "choices": ["24", "26", "25", "27"], "answer": 1 },
-        { "q": "Which is the fastest land animal?", "choices": ["Cheetah", "Lion", "Horse", "Leopard"], "answer": 0 },
-        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2 },
-        { "q": "What does a caterpillar inside a chrysalis become?", "choices": ["Butterfly", "Spider", "Beetle", "Moth"], "answer": 0 },
-        { "q": "Which planet is best known for its rings?", "choices": ["Mars", "Saturn", "Jupiter", "Uranus"], "answer": 1 },
-        { "q": "Who wrote the Harry Potter series?", "choices": ["J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Roald Dahl"], "answer": 2 },
-        { "q": "What is the tallest mountain on Earth?", "choices": ["K2", "Mount Kilimanjaro", "Mont Blanc", "Mount Everest"], "answer": 3 }
+        { "q": "What is the capital of Germany?", "choices": ["Munich", "Hamburg", "Frankfurt", "Berlin"], "answer": 3 },
+        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "9", "8"], "answer": 3 },
+        { "q": "What is the opposite of north?", "choices": ["South", "East", "West", "Up"], "answer": 0 },
+        { "q": "Which planet is fourth from the sun?", "choices": ["Venus", "Earth", "Mars", "Jupiter"], "answer": 2 },
+        { "q": "What type of animal is a whale?", "choices": ["Fish", "Mammal", "Reptile", "Bird"], "answer": 1 },
+        { "q": "What is 4 × 7?", "choices": ["24", "28", "32", "36"], "answer": 1 },
+        { "q": "In which country is most of the Amazon rainforest?", "choices": ["Colombia", "Peru", "Venezuela", "Brazil"], "answer": 3 },
+        { "q": "What do you call a baby frog?", "choices": ["Tadpole", "Larva", "Cub", "Foal"], "answer": 0 },
+        { "q": "What color are rubies?", "choices": ["Blue", "Green", "Red", "Purple"], "answer": 2 },
+        { "q": "Which fairy tale character slept for 100 years?", "choices": ["Cinderella", "Sleeping Beauty", "Snow White", "Rapunzel"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the chemical symbol for silver?", "choices": ["Ag", "Si", "Sv", "Ar"], "answer": 0 },
-        { "q": "Who was the first person to walk on the Moon?", "choices": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"], "answer": 1 },
-        { "q": "What is the capital of Argentina?", "choices": ["Montevideo", "Lima", "Buenos Aires", "Santiago"], "answer": 2 },
-        { "q": "How many days are in a leap year?", "choices": ["364", "365", "367", "366"], "answer": 3 },
-        { "q": "What is the square root of 225?", "choices": ["15", "12", "13", "14"], "answer": 0 },
-        { "q": "Which ocean is the smallest by area?", "choices": ["Pacific", "Arctic", "Atlantic", "Indian"], "answer": 1 },
-        { "q": "What is the chemical formula for common table salt?", "choices": ["KCl", "NaOH", "NaCl", "HCl"], "answer": 2 },
-        { "q": "In which year did the Berlin Wall fall?", "choices": ["1987", "1988", "1990", "1989"], "answer": 3 },
-        { "q": "What is the main language spoken in Brazil?", "choices": ["Spanish", "Portuguese", "French", "English"], "answer": 1 },
-        { "q": "What is 8 cubed (8³)?", "choices": ["312", "412", "512", "612"], "answer": 2 }
+        { "q": "Who was the first woman to win a Nobel Prize?", "choices": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Florence Nightingale"], "answer": 0 },
+        { "q": "What is the capital of South Korea?", "choices": ["Busan", "Seoul", "Pyongyang", "Incheon"], "answer": 1 },
+        { "q": "Roughly how far is the Moon from Earth?", "choices": ["38,000 km", "3,840,000 km", "384,000 km", "38,400 km"], "answer": 2 },
+        { "q": "In which year did the Soviet Union dissolve?", "choices": ["1985", "1989", "1993", "1991"], "answer": 3 },
+        { "q": "What is the chemical symbol for tungsten?", "choices": ["W", "Tu", "Tg", "T"], "answer": 0 },
+        { "q": "Who wrote 'On the Origin of Species'?", "choices": ["Alfred Wallace", "Charles Darwin", "Gregor Mendel", "Thomas Huxley"], "answer": 1 },
+        { "q": "For a right triangle with legs a and b and hypotenuse c, a² + b² equals:", "choices": ["c³", "2c", "c", "c²"], "answer": 3 },
+        { "q": "What is the deepest lake in the world?", "choices": ["Caspian Sea", "Lake Baikal", "Lake Superior", "Lake Titicaca"], "answer": 1 },
+        { "q": "What is the atomic number of carbon?", "choices": ["8", "14", "6", "12"], "answer": 2 },
+        { "q": "Which battle changed English history in 1066?", "choices": ["Battle of Waterloo", "Battle of Trafalgar", "Battle of Agincourt", "Battle of Hastings"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the 10th prime number?", "choices": ["29", "31", "37", "41"], "answer": 0 },
-        { "q": "The curl of any gradient vector field (∇ × ∇f) always equals what?", "choices": ["A non-zero vector field", "The zero vector", "A scalar field", "An undefined expression"], "answer": 1 },
-        { "q": "Which equation governs the time evolution of a quantum state?", "choices": ["Dirac equation", "Navier-Stokes equation", "Schrödinger equation", "Maxwell's equations"], "answer": 2 },
-        { "q": "What is the approximate half-life of Carbon-14?", "choices": ["570 years", "1,570 years", "57,300 years", "5,730 years"], "answer": 3 },
-        { "q": "Euler's identity: e^(iπ) equals what?", "choices": ["−1", "0", "1", "i"], "answer": 0 },
-        { "q": "In complexity theory, NP stands for Nondeterministic ___ time.", "choices": ["Non-Prime", "Polynomial", "Parallel", "Probabilistic"], "answer": 1 },
-        { "q": "What is the order of the symmetric group S3 (permutations of 3 elements)?", "choices": ["3", "4", "6", "9"], "answer": 2 },
-        { "q": "What is the oxidation state of Cr in dichromate (Cr2O7^2-)?", "choices": ["+3", "+4", "+5", "+6"], "answer": 3 },
-        { "q": "What is the integral of e^x with respect to x?", "choices": ["e^x + C", "xe^x + C", "e^(2x)/2 + C", "1/e^x + C"], "answer": 0 },
-        { "q": "When v = c/2, what is the Lorentz factor γ = 1/√(1−v²/c²)?", "choices": ["√2", "2/√3", "√3/2", "2√3"], "answer": 1 }
+        { "q": "What is the closed-form formula for the sum 1 + 2 + ... + n?", "choices": ["n(n−1)/2", "n(n+1)/2", "n²/2", "n(n+2)/4"], "answer": 1 },
+        { "q": "What is the fourth derivative of sin(x)?", "choices": ["−cos(x)", "cos(x)", "−sin(x)", "sin(x)"], "answer": 3 },
+        { "q": "What is the worst-case time complexity of quicksort?", "choices": ["O(n log n)", "O(log n)", "O(n²)", "O(n)"], "answer": 2 },
+        { "q": "What is the pH of a solution where [H⁺] = 10⁻⁹ mol/L?", "choices": ["4", "7", "9", "6"], "answer": 2 },
+        { "q": "For a spontaneous process at constant T and P, the Gibbs free energy change ΔG must be:", "choices": ["Negative", "Zero", "Positive", "Undefined"], "answer": 0 },
+        { "q": "What is the determinant of the 2×2 identity matrix?", "choices": ["0", "−1", "2", "1"], "answer": 3 },
+        { "q": "In special relativity, the energy-momentum relation is E² = ?", "choices": ["(pc)² + (m₀c²)²", "(pc)² − (m₀c²)²", "p²c + m₀c²", "p²c² + m₀c²"], "answer": 0 },
+        { "q": "What is the formal charge on the central oxygen atom in ozone (O₃)?", "choices": ["0", "−1", "+1", "+2"], "answer": 2 },
+        { "q": "The Fourier transform of a Gaussian function e^(−x²) is:", "choices": ["Another Gaussian", "A step function", "An exponential decay", "A sine wave"], "answer": 0 },
+        { "q": "What is the remainder when 2^10 is divided by 7?", "choices": ["1", "2", "4", "6"], "answer": 1 }
       ]
     },
     {
@@ -91,16 +91,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many times does the letter s appear in the word Mississippi?", "choices": ["4", "3", "5", "2"], "answer": 0 },
-        { "q": "You have 3 apples. You take away 2. How many apples do YOU have?", "choices": ["1", "2", "3", "0"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["0", "8", "9", "17"], "answer": 2 },
-        { "q": "A snail climbs 3 ft up a 10-ft pole each day and slides 2 ft back each night. On what day does it reach the top?", "choices": ["7th", "9th", "10th", "8th"], "answer": 3 },
-        { "q": "Count the letter F in: FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY OF EXPERIENCE", "choices": ["6", "3", "4", "5"], "answer": 0 },
-        { "q": "Sally's mother has four children: Spring, Summer, Autumn, and ___?", "choices": ["Winter", "Sally", "Fall", "April"], "answer": 1 },
-        { "q": "Which of these is NOT a prime number?", "choices": ["23", "41", "51", "29"], "answer": 2 },
-        { "q": "5 machines make 5 widgets in 5 minutes. How long do 100 machines need to make 100 widgets?", "choices": ["500 minutes", "20 minutes", "10 minutes", "5 minutes"], "answer": 3 },
-        { "q": "On a fair coin, which specific 6-flip sequence is more likely: HHHHHH or HTHTTH?", "choices": ["They have identical probability", "HHHHHH is more likely", "HTHTTH is more likely", "Both are impossible"], "answer": 0 },
-        { "q": "The statement \"This sentence is false\" is best described as:", "choices": ["True", "False", "Both true and false", "A self-referential paradox with no truth value"], "answer": 3 }
+        { "q": "How many months have 28 days?", "choices": ["Only February", "1", "4", "12"], "answer": 3 },
+        { "q": "A lily pad patch doubles in size every day. It fully covers a pond on day 48. When did it cover half the pond?", "choices": ["Day 47", "Day 24", "Day 36", "Day 42"], "answer": 0 },
+        { "q": "How many letter 'l's appear in the word 'parallel'?", "choices": ["4", "2", "1", "3"], "answer": 3 },
+        { "q": "A rooster is sitting on top of a barn. It lays an egg. Which way does the egg roll?", "choices": ["Toward the east", "Toward the south", "It doesn't — roosters don't lay eggs", "Toward the nearest slope"], "answer": 2 },
+        { "q": "A man pushes his car to a hotel and tells the owner he is bankrupt. What is he doing?", "choices": ["He's playing Monopoly", "He's very tired", "He ran out of gas", "He lost his job"], "answer": 0 },
+        { "q": "Which is heavier: a pound of feathers or a pound of gold?", "choices": ["They are equal", "A pound of feathers — gold is measured in the lighter troy pound", "Gold is heavier", "Neither — weight is relative"], "answer": 1 },
+        { "q": "A plane crashes exactly on the US–Canada border. Where are the survivors buried?", "choices": ["On the US side", "On the Canadian side", "At sea", "Survivors are not buried"], "answer": 3 },
+        { "q": "If 5 workers take 5 hours to dig 5 holes, how long does 1 worker take to dig 1 hole?", "choices": ["1 hour", "25 hours", "5 hours", "3 hours"], "answer": 2 },
+        { "q": "What number comes next in this sequence: 1, 1, 2, 3, 5, 8, ___?", "choices": ["10", "13", "12", "11"], "answer": 1 },
+        { "q": "I speak without a mouth and hear without ears. I have no body, but come alive with wind. What am I?", "choices": ["A ghost", "A shadow", "An echo", "A thought"], "answer": 2 }
       ]
     }
   ]
