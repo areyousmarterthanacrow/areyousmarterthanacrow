@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-23",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 7 x 8?", "choices": ["54", "56", "58", "63"], "answer": 1 },
-        { "q": "Who was the first President of the United States?", "choices": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], "answer": 2 },
-        { "q": "What is the chemical symbol for oxygen?", "choices": ["O", "Ox", "Og", "Om"], "answer": 0 },
-        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
-        { "q": "What is the largest mammal?", "choices": ["Elephant", "Blue whale", "Giraffe", "Hippopotamus"], "answer": 1 },
-        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "Africa", "Australia"], "answer": 2 },
-        { "q": "What is the boiling point of water in Celsius?", "choices": ["90", "100", "110", "212"], "answer": 1 },
-        { "q": "Who is credited with the theory of gravity after watching an apple fall?", "choices": ["Einstein", "Galileo", "Newton", "Darwin"], "answer": 2 },
-        { "q": "What is 100 divided by 4?", "choices": ["20", "25", "30", "40"], "answer": 1 },
-        { "q": "What is the hardest natural substance on Earth?", "choices": ["Gold", "Iron", "Diamond", "Quartz"], "answer": 2 }
+        { "q": "How many sides does a pentagon have?", "choices": ["5", "4", "6", "7"], "answer": 0 },
+        { "q": "What is the capital of Brazil?", "choices": ["Rio de Janeiro", "Brasília", "São Paulo", "Buenos Aires"], "answer": 1 },
+        { "q": "What is 9 x 9?", "choices": ["72", "78", "81", "86"], "answer": 2 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Guglielmo Marconi", "Nikola Tesla", "Alexander Graham Bell"], "answer": 3 },
+        { "q": "What is the chemical symbol for iron?", "choices": ["Fe", "In", "Ir", "Fm"], "answer": 0 },
+        { "q": "What is the longest bone in the human body?", "choices": ["Humerus", "Femur", "Tibia", "Fibula"], "answer": 1 },
+        { "q": "What is the approximate speed of sound in air?", "choices": ["1500 m/s", "660 m/s", "330 m/s", "3000 m/s"], "answer": 2 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["4", "5", "7", "6"], "answer": 3 },
+        { "q": "What is the capital of Russia?", "choices": ["St. Petersburg", "Moscow", "Minsk", "Kyiv"], "answer": 1 },
+        { "q": "In what century did Gutenberg's printing press appear?", "choices": ["13th", "14th", "16th", "15th"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many fingers are on one hand?", "choices": ["3", "5", "10", "2"], "answer": 1 },
-        { "q": "What sound does a cat make?", "choices": ["Woof", "Moo", "Meow", "Quack"], "answer": 2 },
-        { "q": "What is 1 + 1?", "choices": ["1", "2", "3", "11"], "answer": 1 },
-        { "q": "What color is grass?", "choices": ["Blue", "Green", "Red", "Pink"], "answer": 1 },
-        { "q": "Which one is wet?", "choices": ["Sand", "Water", "A rock", "Paper"], "answer": 1 },
-        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Shoes", "Scarf"], "answer": 2 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What do cows give us to drink?", "choices": ["Juice", "Water", "Milk", "Soda"], "answer": 2 },
-        { "q": "Is the sun hot or cold?", "choices": ["Cold", "Hot", "Wet", "Soft"], "answer": 1 },
-        { "q": "What do you sleep in at night?", "choices": ["Bath", "Car", "Bed", "Box"], "answer": 2 }
+        { "q": "What color is the sun?", "choices": ["Green", "Black", "Blue", "Yellow"], "answer": 3 },
+        { "q": "How many toes does a human have?", "choices": ["5", "10", "15", "20"], "answer": 1 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Water", "Rock", "Air", "Mud"], "answer": 0 },
+        { "q": "What does a dog say?", "choices": ["Meow", "Moo", "Woof", "Oink"], "answer": 2 },
+        { "q": "What shape is a ball?", "choices": ["Square", "Circle", "Triangle", "Rectangle"], "answer": 1 },
+        { "q": "Which of these is a fruit?", "choices": ["Carrot", "Potato", "Apple", "Broccoli"], "answer": 2 },
+        { "q": "How many eyes do you have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
+        { "q": "What do fish live in?", "choices": ["Trees", "Air", "Water", "Dirt"], "answer": 2 },
+        { "q": "What is 3 + 0?", "choices": ["1", "2", "4", "3"], "answer": 3 },
+        { "q": "What day comes after Monday?", "choices": ["Sunday", "Friday", "Wednesday", "Tuesday"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Parrot",
       "iq": 80,
       "questions": [
-        { "q": "What is the capital of Italy?", "choices": ["Rome", "Paris", "Madrid", "Athens"], "answer": 0 },
-        { "q": "How many colors are in a rainbow?", "choices": ["5", "6", "7", "9"], "answer": 2 },
-        { "q": "What is the largest land animal?", "choices": ["Rhino", "Elephant", "Giraffe", "Hippo"], "answer": 1 },
-        { "q": "Which planet is closest to the sun?", "choices": ["Venus", "Earth", "Mercury", "Mars"], "answer": 2 },
-        { "q": "How many legs does a spider have?", "choices": ["6", "8", "10", "4"], "answer": 1 },
-        { "q": "What do we call frozen rain that falls in winter?", "choices": ["Snow", "Steam", "Fog", "Dew"], "answer": 0 },
-        { "q": "What is 5 x 2?", "choices": ["7", "10", "12", "15"], "answer": 1 },
-        { "q": "What gas do humans need to breathe?", "choices": ["Carbon dioxide", "Helium", "Oxygen", "Hydrogen"], "answer": 2 },
-        { "q": "What is the capital of England?", "choices": ["Dublin", "London", "Manchester", "Liverpool"], "answer": 1 },
-        { "q": "How many months are in a year?", "choices": ["10", "11", "12", "13"], "answer": 2 }
+        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Valencia", "Seville"], "answer": 0 },
+        { "q": "What color do you get mixing red and white?", "choices": ["Orange", "Purple", "Pink", "Yellow"], "answer": 2 },
+        { "q": "What is the largest continent?", "choices": ["Europe", "Africa", "North America", "Asia"], "answer": 3 },
+        { "q": "How many letters are in the English alphabet?", "choices": ["24", "26", "25", "27"], "answer": 1 },
+        { "q": "Which is the fastest land animal?", "choices": ["Cheetah", "Lion", "Horse", "Leopard"], "answer": 0 },
+        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2 },
+        { "q": "What does a caterpillar inside a chrysalis become?", "choices": ["Butterfly", "Spider", "Beetle", "Moth"], "answer": 0 },
+        { "q": "Which planet is best known for its rings?", "choices": ["Mars", "Saturn", "Jupiter", "Uranus"], "answer": 1 },
+        { "q": "Who wrote the Harry Potter series?", "choices": ["J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Roald Dahl"], "answer": 2 },
+        { "q": "What is the tallest mountain on Earth?", "choices": ["K2", "Mount Kilimanjaro", "Mont Blanc", "Mount Everest"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the square root of 169?", "choices": ["11", "12", "13", "14"], "answer": 2 },
-        { "q": "Who wrote the novel \"1984\"?", "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"], "answer": 1 },
-        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": 2 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sd", "Na", "S"], "answer": 2 },
-        { "q": "How many sides does a hexagon have?", "choices": ["5", "6", "7", "8"], "answer": 1 },
-        { "q": "In what year did humans first land on the Moon?", "choices": ["1965", "1969", "1972", "1959"], "answer": 1 },
-        { "q": "What is the largest organ in the human body?", "choices": ["Liver", "Brain", "Skin", "Lungs"], "answer": 2 },
-        { "q": "What is 12 squared?", "choices": ["124", "132", "144", "154"], "answer": 2 },
-        { "q": "Which gas makes up most of Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": 1 },
-        { "q": "What is the smallest country in the world by area?", "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"], "answer": 1 }
+        { "q": "What is the chemical symbol for silver?", "choices": ["Ag", "Si", "Sv", "Ar"], "answer": 0 },
+        { "q": "Who was the first person to walk on the Moon?", "choices": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"], "answer": 1 },
+        { "q": "What is the capital of Argentina?", "choices": ["Montevideo", "Lima", "Buenos Aires", "Santiago"], "answer": 2 },
+        { "q": "How many days are in a leap year?", "choices": ["364", "365", "367", "366"], "answer": 3 },
+        { "q": "What is the square root of 225?", "choices": ["15", "12", "13", "14"], "answer": 0 },
+        { "q": "Which ocean is the smallest by area?", "choices": ["Pacific", "Arctic", "Atlantic", "Indian"], "answer": 1 },
+        { "q": "What is the chemical formula for common table salt?", "choices": ["KCl", "NaOH", "NaCl", "HCl"], "answer": 2 },
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1987", "1988", "1990", "1989"], "answer": 3 },
+        { "q": "What is the main language spoken in Brazil?", "choices": ["Spanish", "Portuguese", "French", "English"], "answer": 1 },
+        { "q": "What is 8 cubed (8³)?", "choices": ["312", "412", "512", "612"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of sin(x)?", "choices": ["-sin(x)", "cos(x)", "-cos(x)", "tan(x)"], "answer": 1 },
-        { "q": "What is Avogadro's number approximately?", "choices": ["6.02 x 10^23", "3.14 x 10^10", "1.60 x 10^-19", "9.81 x 10^8"], "answer": 0 },
-        { "q": "Which particle mediates the electromagnetic force?", "choices": ["Gluon", "Photon", "Graviton", "Neutrino"], "answer": 1 },
-        { "q": "What is the square root of -1 called in mathematics?", "choices": ["e", "pi", "The imaginary unit i", "Infinity"], "answer": 2 },
-        { "q": "What does DNA stand for?", "choices": ["Deoxyribonucleic acid", "Dinucleic acid", "Diribonucleic acid", "Deoxyribose nucleotide"], "answer": 0 },
-        { "q": "What is the time complexity of merge sort?", "choices": ["O(n)", "O(n^2)", "O(n log n)", "O(log n)"], "answer": 2 },
-        { "q": "What is the only even prime number?", "choices": ["0", "1", "2", "4"], "answer": 2 },
-        { "q": "In an isolated system, which quantity never decreases?", "choices": ["Energy", "Entropy", "Temperature", "Pressure"], "answer": 1 },
-        { "q": "What is the value of the golden ratio to two decimals?", "choices": ["1.41", "1.62", "2.72", "3.14"], "answer": 1 },
-        { "q": "What is the chemical symbol for potassium?", "choices": ["P", "Po", "K", "Pt"], "answer": 2 }
+        { "q": "What is the 10th prime number?", "choices": ["29", "31", "37", "41"], "answer": 0 },
+        { "q": "The curl of any gradient vector field (∇ × ∇f) always equals what?", "choices": ["A non-zero vector field", "The zero vector", "A scalar field", "An undefined expression"], "answer": 1 },
+        { "q": "Which equation governs the time evolution of a quantum state?", "choices": ["Dirac equation", "Navier-Stokes equation", "Schrödinger equation", "Maxwell's equations"], "answer": 2 },
+        { "q": "What is the approximate half-life of Carbon-14?", "choices": ["570 years", "1,570 years", "57,300 years", "5,730 years"], "answer": 3 },
+        { "q": "Euler's identity: e^(iπ) equals what?", "choices": ["−1", "0", "1", "i"], "answer": 0 },
+        { "q": "In complexity theory, NP stands for Nondeterministic ___ time.", "choices": ["Non-Prime", "Polynomial", "Parallel", "Probabilistic"], "answer": 1 },
+        { "q": "What is the order of the symmetric group S3 (permutations of 3 elements)?", "choices": ["3", "4", "6", "9"], "answer": 2 },
+        { "q": "What is the oxidation state of Cr in dichromate (Cr2O7^2-)?", "choices": ["+3", "+4", "+5", "+6"], "answer": 3 },
+        { "q": "What is the integral of e^x with respect to x?", "choices": ["e^x + C", "xe^x + C", "e^(2x)/2 + C", "1/e^x + C"], "answer": 0 },
+        { "q": "When v = c/2, what is the Lorentz factor γ = 1/√(1−v²/c²)?", "choices": ["√2", "2/√3", "√3/2", "2√3"], "answer": 1 }
       ]
     },
     {
@@ -91,16 +91,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many times does the letter \"r\" appear in the word \"strawberry\"?", "choices": ["2", "3", "4", "1"], "answer": 1 },
-        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$1.00", "$0.15"], "answer": 1 },
-        { "q": "How many words are in this question?", "choices": ["6", "7", "8", "9"], "answer": 1 },
-        { "q": "In the Monty Hall problem, after the host opens a door revealing a goat, should you switch doors to maximize your chance of winning?", "choices": ["No, it makes no difference", "Yes, switching wins about two-thirds of the time", "No, switching lowers your odds", "Only if a fourth door is added"], "answer": 1 },
-        { "q": "Which of these numbers is prime?", "choices": ["51", "87", "91", "97"], "answer": 3 },
-        { "q": "What is 17 x 23?", "choices": ["371", "381", "391", "401"], "answer": 2 },
-        { "q": "Who proved Fermat's Last Theorem?", "choices": ["Pierre de Fermat", "Leonhard Euler", "Andrew Wiles", "Kurt Godel"], "answer": 2 },
-        { "q": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?", "choices": ["Yes", "No", "Not enough information", "Only some of them"], "answer": 0 },
-        { "q": "How many seconds are in a single day?", "choices": ["3,600", "86,400", "84,600", "1,440"], "answer": 1 },
-        { "q": "The transformer architecture behind modern language models relies primarily on what mechanism?", "choices": ["Recurrence", "Convolution", "Attention", "Decision trees"], "answer": 2 }
+        { "q": "How many times does the letter s appear in the word Mississippi?", "choices": ["4", "3", "5", "2"], "answer": 0 },
+        { "q": "You have 3 apples. You take away 2. How many apples do YOU have?", "choices": ["1", "2", "3", "0"], "answer": 1 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["0", "8", "9", "17"], "answer": 2 },
+        { "q": "A snail climbs 3 ft up a 10-ft pole each day and slides 2 ft back each night. On what day does it reach the top?", "choices": ["7th", "9th", "10th", "8th"], "answer": 3 },
+        { "q": "Count the letter F in: FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY OF EXPERIENCE", "choices": ["6", "3", "4", "5"], "answer": 0 },
+        { "q": "Sally's mother has four children: Spring, Summer, Autumn, and ___?", "choices": ["Winter", "Sally", "Fall", "April"], "answer": 1 },
+        { "q": "Which of these is NOT a prime number?", "choices": ["23", "41", "51", "29"], "answer": 2 },
+        { "q": "5 machines make 5 widgets in 5 minutes. How long do 100 machines need to make 100 widgets?", "choices": ["500 minutes", "20 minutes", "10 minutes", "5 minutes"], "answer": 3 },
+        { "q": "On a fair coin, which specific 6-flip sequence is more likely: HHHHHH or HTHTTH?", "choices": ["They have identical probability", "HHHHHH is more likely", "HTHTTH is more likely", "Both are impossible"], "answer": 0 },
+        { "q": "The statement \"This sentence is false\" is best described as:", "choices": ["True", "False", "Both true and false", "A self-referential paradox with no truth value"], "answer": 3 }
       ]
     }
   ]
