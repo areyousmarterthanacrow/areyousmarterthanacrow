@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of France?", "choices": ["Paris", "Lyon", "Marseille", "Nice"], "answer": 0 },
-        { "q": "How many continents are there on Earth?", "choices": ["5", "7", "6", "8"], "answer": 1 },
-        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Sl", "Ag", "Sr"], "answer": 2 },
-        { "q": "What is 14 × 6?", "choices": ["78", "96", "88", "84"], "answer": 3 },
-        { "q": "How many hours are in a day?", "choices": ["20", "36", "24", "48"], "answer": 2 },
-        { "q": "Which organ pumps blood through the body?", "choices": ["Lungs", "Brain", "Liver", "Heart"], "answer": 3 },
-        { "q": "What is the capital of Brazil?", "choices": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"], "answer": 0 },
-        { "q": "What is 11² (11 squared)?", "choices": ["111", "121", "132", "144"], "answer": 1 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Picasso", "Rembrandt", "Da Vinci", "Michelangelo"], "answer": 2 },
-        { "q": "What is the freezing point of water in Celsius?", "choices": ["100°C", "0°C", "32°C", "-10°C"], "answer": 1 }
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": 2 },
+        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "9", "8"], "answer": 3 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Au", "Go", "Gl", "Gd"], "answer": 0 },
+        { "q": "What is 15 × 7?", "choices": ["95", "105", "110", "100"], "answer": 1 },
+        { "q": "How many bones are in the adult human body?", "choices": ["312", "186", "206", "256"], "answer": 2 },
+        { "q": "Which is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Uranus", "Jupiter"], "answer": 3 },
+        { "q": "In which sport is the breaststroke a recognized technique?", "choices": ["Swimming", "Rowing", "Cycling", "Gymnastics"], "answer": 0 },
+        { "q": "What is 7² (7 squared)?", "choices": ["42", "56", "49", "64"], "answer": 2 },
+        { "q": "How many weeks are in a year?", "choices": ["52", "50", "48", "54"], "answer": 0 },
+        { "q": "What is the closest star to Earth?", "choices": ["Alpha Centauri", "The Sun", "Sirius", "Betelgeuse"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you do at night to rest?", "choices": ["Sleep", "Run", "Eat", "Jump"], "answer": 0 },
-        { "q": "How many wheels does a car have?", "choices": ["2", "4", "3", "6"], "answer": 1 },
-        { "q": "What color is a fire truck?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 2 },
-        { "q": "What color is a banana?", "choices": ["Red", "Purple", "Blue", "Yellow"], "answer": 3 },
-        { "q": "How many legs does a spider have?", "choices": ["8", "4", "6", "10"], "answer": 0 },
-        { "q": "What do you use to cut paper?", "choices": ["Fork", "Scissors", "Spoon", "Hammer"], "answer": 1 },
-        { "q": "What is 2 + 3?", "choices": ["4", "6", "5", "7"], "answer": 2 },
-        { "q": "Which animal lives in the ocean?", "choices": ["Elephant", "Tiger", "Bear", "Whale"], "answer": 3 },
-        { "q": "What do you use to comb your hair?", "choices": ["Fork", "Brush", "Spoon", "Cup"], "answer": 1 },
-        { "q": "What comes after the number 9?", "choices": ["8", "11", "10", "7"], "answer": 2 }
+        { "q": "What is 3 + 2?", "choices": ["3", "5", "6", "4"], "answer": 1 },
+        { "q": "What color is snow?", "choices": ["White", "Blue", "Pink", "Green"], "answer": 0 },
+        { "q": "How many legs does a dog have?", "choices": ["6", "2", "8", "4"], "answer": 3 },
+        { "q": "What sound does a cow make?", "choices": ["Oink", "Baa", "Moo", "Cluck"], "answer": 2 },
+        { "q": "What color is a strawberry?", "choices": ["Yellow", "Red", "Blue", "Green"], "answer": 1 },
+        { "q": "How many sides does a square have?", "choices": ["4", "3", "5", "6"], "answer": 0 },
+        { "q": "What do you wear when it is very cold outside?", "choices": ["Swimsuit", "Sunglasses", "Sandals", "Coat"], "answer": 3 },
+        { "q": "Which animal is called man's best friend?", "choices": ["Cat", "Fish", "Dog", "Hamster"], "answer": 2 },
+        { "q": "What is 10 - 4?", "choices": ["5", "6", "8", "7"], "answer": 1 },
+        { "q": "What color is a carrot?", "choices": ["Purple", "Green", "Blue", "Orange"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which city is the Taj Mahal located?", "choices": ["Agra", "Delhi", "Mumbai", "Jaipur"], "answer": 0 },
-        { "q": "In what year did the Berlin Wall fall?", "choices": ["1987", "1989", "1985", "1991"], "answer": 1 },
-        { "q": "Who painted 'The Starry Night'?", "choices": ["Rembrandt", "Monet", "Van Gogh", "Picasso"], "answer": 2 },
-        { "q": "Which country has the most natural lakes?", "choices": ["Russia", "Finland", "USA", "Canada"], "answer": 3 },
-        { "q": "What is the atomic number of oxygen?", "choices": ["8", "6", "10", "12"], "answer": 0 },
-        { "q": "What is the most widely spoken language in the world by native speakers?", "choices": ["English", "Mandarin Chinese", "Spanish", "Hindi"], "answer": 1 },
-        { "q": "What is the approximate speed of sound in air at room temperature?", "choices": ["150 m/s", "660 m/s", "343 m/s", "1,450 m/s"], "answer": 2 },
-        { "q": "What is the capital of India?", "choices": ["Mumbai", "Kolkata", "Chennai", "New Delhi"], "answer": 3 },
-        { "q": "Which ancient wall runs across northern England, built by the Romans?", "choices": ["Hadrian's Wall", "Antonine Wall", "Offa's Dyke", "Emperor's Wall"], "answer": 0 },
-        { "q": "In what year did World War II end?", "choices": ["1943", "1945", "1946", "1944"], "answer": 1 }
+        { "q": "What is the capital of Egypt?", "choices": ["Alexandria", "Luxor", "Cairo", "Giza"], "answer": 2 },
+        { "q": "What is the longest bone in the human body?", "choices": ["Tibia", "Humerus", "Spine", "Femur"], "answer": 3 },
+        { "q": "In what year did World War I begin?", "choices": ["1914", "1912", "1915", "1916"], "answer": 0 },
+        { "q": "What is the currency of Japan?", "choices": ["Yuan", "Yen", "Won", "Ringgit"], "answer": 1 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["4", "5", "8", "6"], "answer": 3 },
+        { "q": "What is the world's largest desert by area?", "choices": ["Sahara", "Antarctic", "Gobi", "Arabian"], "answer": 1 },
+        { "q": "In which Shakespeare play does the character Shylock appear?", "choices": ["Othello", "Macbeth", "The Merchant of Venice", "King Lear"], "answer": 2 },
+        { "q": "What is the primary component of natural gas?", "choices": ["Methane", "Propane", "Ethane", "Butane"], "answer": 0 },
+        { "q": "Who was the first woman to be awarded a Nobel Prize?", "choices": ["Dorothy Hodgkin", "Marie Curie", "Barbara McClintock", "Rosalind Franklin"], "answer": 1 },
+        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3 × 10⁶ m/s", "3 × 10⁴ m/s", "3 × 10¹⁰ m/s", "3 × 10⁸ m/s"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is ∫₀^π sin²(x) dx?", "choices": ["π/2", "π", "0", "2"], "answer": 0 },
-        { "q": "What is the rank of the matrix [[1,2,3],[4,5,6],[7,8,9]]?", "choices": ["0", "2", "3", "1"], "answer": 1 },
-        { "q": "What is the residue of f(z) = e^z / z² at z = 0?", "choices": ["0", "e", "1", "2"], "answer": 2 },
-        { "q": "For a simple harmonic oscillator with mass m and spring constant k, what is the angular frequency ω?", "choices": ["k/m", "m/k", "√(m/k)", "√(k/m)"], "answer": 3 },
-        { "q": "What is Heisenberg's uncertainty principle for position x and momentum p?", "choices": ["ΔxΔp ≥ ℏ/2", "ΔxΔp ≥ ℏ", "ΔxΔp = 0", "ΔxΔp ≥ 2ℏ"], "answer": 0 },
-        { "q": "What is the Maxwell relation derived from the Helmholtz free energy A = U − TS?", "choices": ["(∂S/∂P)_T = −(∂V/∂T)_P", "(∂S/∂V)_T = (∂P/∂T)_V", "(∂T/∂V)_S = −(∂P/∂S)_V", "(∂T/∂P)_S = (∂V/∂S)_P"], "answer": 1 },
-        { "q": "What is the time complexity of Strassen's matrix multiplication algorithm?", "choices": ["O(n³)", "O(n² log n)", "O(n^2.807)", "O(n^2.73)"], "answer": 2 },
-        { "q": "In Galois theory, what is the Galois group of x⁴ − 2 over ℚ?", "choices": ["ℤ₄", "S₄", "ℤ₂ × ℤ₂", "D₄"], "answer": 3 },
-        { "q": "What does the P vs NP problem ask?", "choices": ["Whether every problem whose solution can be verified in polynomial time can also be solved in polynomial time", "Whether polynomial-time algorithms can always be parallelized", "Whether NP-complete problems require exponential space", "Whether all P problems are also NP-complete"], "answer": 0 },
-        { "q": "What is the time complexity of Dijkstra's algorithm using a binary heap for a graph with V vertices and E edges?", "choices": ["O(V²)", "O(VE)", "O((V + E) log V)", "O(E log V)"], "answer": 2 }
+        { "q": "What is the derivative of arctan(x) with respect to x?", "choices": ["1/(1+x²)", "1/√(1−x²)", "−1/(1+x²)", "ln(1+x²)"], "answer": 0 },
+        { "q": "What is the dimension of the null space of the matrix [[1,2,3],[2,4,6]]?", "choices": ["0", "2", "1", "3"], "answer": 1 },
+        { "q": "What is the half-life of Carbon-14?", "choices": ["570 years", "57,300 years", "5,730 years", "573,000 years"], "answer": 2 },
+        { "q": "What physical quantity does the Nernst equation allow you to calculate?", "choices": ["Rate of a chemical reaction", "Entropy change in a reaction", "Equilibrium constant from free energy", "Cell potential under non-standard conditions"], "answer": 3 },
+        { "q": "What is the value of the commutator [x̂, p̂] in quantum mechanics (ħ = h/2π)?", "choices": ["iħ", "0", "−iħ", "ħ²"], "answer": 0 },
+        { "q": "The decision version of the Traveling Salesman Problem belongs to which complexity class?", "choices": ["P", "NP-complete", "PSPACE", "co-NP"], "answer": 1 },
+        { "q": "What is the value of ∮_C dz/z where C is the unit circle traversed counterclockwise?", "choices": ["0", "π", "2πi", "πi"], "answer": 2 },
+        { "q": "What is ΔS when 1 mole of an ideal gas expands isothermally from volume V to 2V?", "choices": ["0", "R", "2R", "R ln 2"], "answer": 3 },
+        { "q": "What is the Euler characteristic χ of a torus?", "choices": ["0", "1", "2", "−2"], "answer": 0 },
+        { "q": "What is the wave equation for a taut string with tension T and linear mass density μ?", "choices": ["∂²y/∂t² = (μ/T)∂²y/∂x²", "∂²y/∂t² = (T/μ)∂²y/∂x²", "∂y/∂t = (T/μ)∂²y/∂x²", "∂²y/∂t² = T·μ·∂²y/∂x²"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many months in a year have 28 days?", "choices": ["12", "1", "2", "4"], "answer": 0 },
-        { "q": "You are running a race and pass the person in 2nd place. What place are you in now?", "choices": ["1st", "2nd", "3rd", "It depends on the race"], "answer": 1 },
-        { "q": "A bat and ball together cost $1.10. The bat costs $1 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.15", "$0.05", "$0.50"], "answer": 2 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "7", "0", "9"], "answer": 3 },
-        { "q": "Is it legal for a man to marry his widow's sister?", "choices": ["No — the man is dead", "Yes, with court approval", "No, it violates incest laws", "Yes, if both parties consent"], "answer": 0 },
-        { "q": "Which is correct: 'The yolk of an egg IS white' or 'The yolk of an egg ARE white'?", "choices": ["'Is white' — the grammar is correct", "Neither — egg yolks are yellow, not white", "'Are white' — it should be plural", "Both are grammatically valid"], "answer": 1 },
-        { "q": "How many animals of each kind did Moses take onto the ark?", "choices": ["2", "7", "Moses took none — it was Noah's ark", "The Bible doesn't specify"], "answer": 2 },
-        { "q": "Two US coins total 55 cents. One of them is not a nickel. What are the two coins?", "choices": ["A quarter and three dimes", "Two quarters and a nickel", "Five dimes and a nickel", "A half-dollar and a nickel"], "answer": 3 },
-        { "q": "How many times does the letter 'r' appear in the word 'strawberry'?", "choices": ["1", "3", "2", "4"], "answer": 1 },
-        { "q": "I am an odd number. Take away one letter and I become even. What number am I?", "choices": ["NINE", "THREE", "SEVEN", "FIVE"], "answer": 2 }
+        { "q": "Before Mount Everest was discovered, what was the highest mountain on Earth?", "choices": ["Mount Everest", "K2", "Kangchenjunga", "Denali"], "answer": 0 },
+        { "q": "A doctor gives you 3 pills and tells you to take one every half hour. How many minutes will the pills last?", "choices": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"], "answer": 1 },
+        { "q": "Mary's father has 4 daughters: Nana, Nene, Nini, and ___. What is the name of the 4th daughter?", "choices": ["Nono", "Nunu", "Mary", "Nana"], "answer": 2 },
+        { "q": "How long did the Hundred Years' War actually last?", "choices": ["100 years", "99 years", "112 years", "116 years"], "answer": 3 },
+        { "q": "How many 3-cent stamps are in a dozen?", "choices": ["12", "3", "4", "36"], "answer": 0 },
+        { "q": "What color is the 'black box' flight data recorder on commercial aircraft?", "choices": ["Black", "Orange", "Red", "Silver"], "answer": 1 },
+        { "q": "You have a bowl with 6 apples. You take away 4. How many apples do YOU have?", "choices": ["2", "6", "4", "0"], "answer": 2 },
+        { "q": "A plane crashes exactly on the US–Canada border. In which country are the survivors buried?", "choices": ["The US", "Canada", "Whichever country they're from", "Survivors aren't buried"], "answer": 3 },
+        { "q": "How many times can you subtract 10 from 100?", "choices": ["Once", "10 times", "9 times", "As many times as you like"], "answer": 0 },
+        { "q": "A surgeon says 'I cannot operate on this boy — he is my son!' but the boy's father was killed in the accident. Who is the surgeon?", "choices": ["His stepfather", "His mother", "His uncle", "His grandfather"], "answer": 1 }
       ]
     }
   ]
