@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Mexico?", "choices": ["Mexico City", "Guadalajara", "Monterrey", "Cancún"], "answer": 0 },
-        { "q": "What is the chemical symbol for carbon?", "choices": ["Ca", "C", "Co", "Cr"], "answer": 1 },
-        { "q": "What is 18 × 4?", "choices": ["64", "68", "72", "76"], "answer": 2 },
-        { "q": "How many sides does a heptagon have?", "choices": ["5", "6", "8", "7"], "answer": 3 },
-        { "q": "Which is the largest ocean on Earth?", "choices": ["Pacific", "Atlantic", "Indian", "Arctic"], "answer": 0 },
-        { "q": "What is the boiling point of water in Fahrenheit?", "choices": ["180°F", "200°F", "220°F", "212°F"], "answer": 3 },
-        { "q": "Which sport uses a shuttlecock?", "choices": ["Squash", "Badminton", "Racquetball", "Tennis"], "answer": 1 },
-        { "q": "How many players per team are on the court in basketball?", "choices": ["6", "7", "5", "4"], "answer": 2 },
-        { "q": "What is the capital of Italy?", "choices": ["Rome", "Milan", "Florence", "Naples"], "answer": 0 },
-        { "q": "What is 6³ (6 cubed)?", "choices": ["180", "216", "206", "196"], "answer": 1 }
+        { "q": "What is the capital of Canada?", "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "answer": 0 },
+        { "q": "What is 12 × 9?", "choices": ["96", "108", "112", "116"], "answer": 1 },
+        { "q": "What is the chemical symbol for potassium?", "choices": ["Po", "Pt", "K", "Ks"], "answer": 2 },
+        { "q": "Which planet has the most known moons?", "choices": ["Mars", "Jupiter", "Neptune", "Saturn"], "answer": 3 },
+        { "q": "What sport is played at Wimbledon?", "choices": ["Tennis", "Cricket", "Squash", "Rugby"], "answer": 0 },
+        { "q": "How many sides does a hexagon have?", "choices": ["5", "6", "7", "8"], "answer": 1 },
+        { "q": "In which country is the Eiffel Tower?", "choices": ["Belgium", "Italy", "France", "Spain"], "answer": 2 },
+        { "q": "What is 144 ÷ 12?", "choices": ["10", "11", "13", "12"], "answer": 3 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["Na", "So", "Sd", "S"], "answer": 0 },
+        { "q": "What is the official language of Brazil?", "choices": ["Spanish", "Portuguese", "French", "Italian"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a lemon?", "choices": ["Yellow", "Pink", "Blue", "Purple"], "answer": 0 },
-        { "q": "How many legs does a bird have?", "choices": ["Four", "Two", "Eight", "Six"], "answer": 1 },
-        { "q": "What do you put on a birthday cake?", "choices": ["Ketchup", "Soap", "Candles", "Sand"], "answer": 2 },
-        { "q": "What sound does a pig make?", "choices": ["Moo", "Baa", "Cluck", "Oink"], "answer": 3 },
-        { "q": "How many days are in a week?", "choices": ["Seven", "Five", "Ten", "Three"], "answer": 0 },
-        { "q": "What color is milk?", "choices": ["Orange", "White", "Green", "Red"], "answer": 1 },
-        { "q": "Where do fish live?", "choices": ["Trees", "Sand", "Water", "Clouds"], "answer": 2 },
-        { "q": "Which animal hops and carries its baby in a pouch?", "choices": ["Dog", "Cat", "Fish", "Kangaroo"], "answer": 3 },
-        { "q": "What is 4 + 1?", "choices": ["5", "3", "6", "7"], "answer": 0 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Pillow", "Fork", "Toothbrush", "Sock"], "answer": 2 }
+        { "q": "What do you call a baby dog?", "choices": ["Puppy", "Kitten", "Foal", "Piglet"], "answer": 0 },
+        { "q": "What color is an orange?", "choices": ["Yellow", "Orange", "Purple", "Green"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
+        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Belt", "Shoes"], "answer": 3 },
+        { "q": "What is 3 - 1?", "choices": ["2", "3", "4", "5"], "answer": 0 },
+        { "q": "Which animal says 'meow'?", "choices": ["Dog", "Cat", "Bird", "Cow"], "answer": 1 },
+        { "q": "What is the opposite of hot?", "choices": ["Wet", "Soft", "Cold", "Loud"], "answer": 2 },
+        { "q": "What do birds use to fly?", "choices": ["Fins", "Paws", "Legs", "Wings"], "answer": 3 },
+        { "q": "What do you use to write on paper?", "choices": ["Pencil", "Fork", "Spoon", "Hammer"], "answer": 0 },
+        { "q": "What is 7 - 3?", "choices": ["1", "4", "6", "5"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the capital of Portugal?", "choices": ["Lisbon", "Porto", "Braga", "Coimbra"], "answer": 0 },
-        { "q": "Who wrote 'The Great Gatsby'?", "choices": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "William Faulkner"], "answer": 1 },
-        { "q": "What is the largest organ in the human body?", "choices": ["Heart", "Liver", "Skin", "Lungs"], "answer": 2 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Mercury", "Venus", "Jupiter", "Mars"], "answer": 3 },
-        { "q": "In what year did the first iPhone launch?", "choices": ["2007", "2008", "2006", "2009"], "answer": 0 },
-        { "q": "What is the chemical formula for water?", "choices": ["H₂O₂", "H₂O", "HO", "H₃O"], "answer": 1 },
-        { "q": "What is the currency of the United Kingdom?", "choices": ["Euro", "Franc", "Pound Sterling", "Dollar"], "answer": 2 },
-        { "q": "In which country is the Amazon rainforest primarily located?", "choices": ["Colombia", "Peru", "Venezuela", "Brazil"], "answer": 3 },
-        { "q": "What is the most abundant element in the universe by mass?", "choices": ["Hydrogen", "Helium", "Oxygen", "Carbon"], "answer": 0 },
-        { "q": "In which city is the Louvre museum located?", "choices": ["Rome", "Paris", "Amsterdam", "Vienna"], "answer": 1 }
+        { "q": "In which year did World War II begin?", "choices": ["1939", "1940", "1941", "1942"], "answer": 0 },
+        { "q": "What is the capital of Russia?", "choices": ["St. Petersburg", "Moscow", "Kiev", "Minsk"], "answer": 1 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "CaCO₃", "NaCl", "MgCl₂"], "answer": 2 },
+        { "q": "Who developed the theory of general relativity?", "choices": ["Isaac Newton", "Niels Bohr", "Max Planck", "Albert Einstein"], "answer": 3 },
+        { "q": "What is the largest country by land area?", "choices": ["Russia", "China", "Canada", "USA"], "answer": 0 },
+        { "q": "How many events are in a decathlon?", "choices": ["8", "10", "12", "15"], "answer": 1 },
+        { "q": "Which gas makes up most of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"], "answer": 2 },
+        { "q": "Which ocean is the smallest by area?", "choices": ["Pacific", "Atlantic", "Indian", "Arctic"], "answer": 3 },
+        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Jane Austen", "Charlotte Brontë", "Virginia Woolf", "George Eliot"], "answer": 0 },
+        { "q": "What gas do plants primarily use in photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the divergence of the curl of any smooth vector field?", "choices": ["Always zero", "Always non-zero", "Equal to the Laplacian of the field", "Depends on the field"], "answer": 0 },
-        { "q": "A Carnot engine operates between 400 K (hot) and 300 K (cold). What is its maximum efficiency?", "choices": ["30%", "25%", "40%", "75%"], "answer": 1 },
-        { "q": "What is the variance of a Poisson distribution with parameter λ?", "choices": ["λ²", "√λ", "λ", "1/λ"], "answer": 2 },
-        { "q": "The spin-statistics theorem requires that the wavefunction of two identical fermions under particle exchange:", "choices": ["Is unchanged (symmetric)", "Gains a phase factor e^(iπ/2)", "Doubles in amplitude", "Changes sign (antisymmetric)"], "answer": 3 },
-        { "q": "What is the time complexity of the Fast Fourier Transform (FFT) for n input points?", "choices": ["O(n log n)", "O(n²)", "O(n log² n)", "O(n)"], "answer": 0 },
-        { "q": "What is the pH of a 0.001 M solution of HCl (fully dissociated) at 25°C?", "choices": ["1", "3", "2", "−1"], "answer": 1 },
-        { "q": "A connected planar graph has 6 vertices and 9 edges. By Euler's formula (V − E + F = 2), how many faces does it have?", "choices": ["3", "4", "5", "7"], "answer": 2 },
-        { "q": "What is the order of GL(2, F₂) — the group of 2×2 invertible matrices over the field with 2 elements?", "choices": ["4", "8", "12", "6"], "answer": 3 },
-        { "q": "What is ∫₀^∞ x e^(−x) dx?", "choices": ["1", "e", "1/2", "2"], "answer": 0 },
-        { "q": "According to the Nyquist-Shannon sampling theorem, what minimum sampling rate is required to perfectly reconstruct a signal with maximum frequency f_max?", "choices": ["f_max", "2f_max", "4f_max", "f_max/2"], "answer": 1 }
+        { "q": "In the analytic continuation of the Riemann zeta function, what is the value of ζ(−1)?", "choices": ["−1/12", "−1/6", "∞", "0"], "answer": 0 },
+        { "q": "What is the Gibbs free energy condition for a spontaneous reaction at constant T and P?", "choices": ["ΔG > 0", "ΔG < 0", "ΔG = 0", "ΔG = ΔH"], "answer": 1 },
+        { "q": "How many elements does the dihedral group D₄ — the symmetry group of a square — have?", "choices": ["4", "6", "8", "12"], "answer": 2 },
+        { "q": "What is the ground state energy of a particle in a 1D infinite square well of width L?", "choices": ["ħ²π²/mL²", "ħ²π²/(4mL²)", "2ħ²π²/mL²", "ħ²π²/(2mL²)"], "answer": 3 },
+        { "q": "What is the Laplace transform of f(t) = t·e^(at)?", "choices": ["1/(s−a)²", "1/(s−a)", "s/(s−a)²", "a/(s−a)²"], "answer": 0 },
+        { "q": "In how many distinct ways can 5 different books be arranged on a shelf?", "choices": ["60", "120", "240", "720"], "answer": 1 },
+        { "q": "What is always true of the entropy of mixing of two distinct ideal gases at constant T and P?", "choices": ["It is always zero", "It depends on molecular weights", "It is always positive", "It equals the enthalpy of mixing"], "answer": 2 },
+        { "q": "How many edges does a tree with n vertices have?", "choices": ["n", "n+1", "n+2", "n−1"], "answer": 3 },
+        { "q": "What is the curvature κ of a circle of radius r?", "choices": ["1/r", "r", "2πr", "r²"], "answer": 0 },
+        { "q": "In the Standard Model, which particle mediates the electromagnetic force?", "choices": ["Gluon", "Photon", "W boson", "Z boson"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "If January 1st falls on a Wednesday, what day of the week is January 8th?", "choices": ["Wednesday", "Thursday", "Friday", "Tuesday"], "answer": 0 },
-        { "q": "A man looks at a portrait and says: 'Brothers and sisters I have none, but this man's father is my father's son.' Who is in the portrait?", "choices": ["Himself", "His son", "His brother", "His grandfather"], "answer": 1 },
-        { "q": "How many months of the year have exactly 30 days?", "choices": ["6", "1", "4", "5"], "answer": 2 },
-        { "q": "A snail sits at the bottom of a 10-foot well. Each day it climbs 3 feet; each night it slides back 2 feet. On which day does it escape?", "choices": ["Day 10", "Day 7", "Day 9", "Day 8"], "answer": 3 },
-        { "q": "Which of these numbers, when spelled out in English, has exactly as many letters as its value?", "choices": ["Four", "Three", "Five", "Six"], "answer": 0 },
-        { "q": "How many times does the letter 'E' appear in the word 'SENTENCE'?", "choices": ["2", "3", "4", "1"], "answer": 1 },
-        { "q": "At exactly 3:45, what is the angle between the hour and minute hands of a clock?", "choices": ["135°", "90°", "157.5°", "180°"], "answer": 2 },
-        { "q": "Which word in English becomes 'shorter' when you add two letters to it?", "choices": ["Long", "Small", "Brief", "Short"], "answer": 3 },
-        { "q": "A 3×3×3 Rubik's cube is taken apart into 27 small cubes. How many of those small cubes have NO colored faces at all?", "choices": ["1", "6", "8", "0"], "answer": 0 },
-        { "q": "The sum of all integers from 1 to 100 is 5,050. What is the sum of all integers from 1 to 99?", "choices": ["5,049", "4,950", "4,999", "5,001"], "answer": 1 }
+        { "q": "What is the next letter in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["T", "O", "E", "F"], "answer": 0 },
+        { "q": "You enter a dark room containing a candle, an oil lamp, and a wood stove. You have exactly one match. What do you light first?", "choices": ["The candle", "The match", "The oil lamp", "The wood stove"], "answer": 1 },
+        { "q": "Two fathers and two sons sit down to eat eggs. There are exactly 3 eggs, and each person eats exactly one whole egg. How?", "choices": ["One egg was imaginary", "One person ate two portions", "There are only 3 people: grandfather, father, and son", "Two people shared one egg"], "answer": 2 },
+        { "q": "Which is heavier: a ton of gold or a ton of feathers?", "choices": ["Gold — it is far denser", "Feathers — more volume is needed", "Gold — precious metals use heavier units of measure", "They weigh exactly the same"], "answer": 3 },
+        { "q": "What is the minimum number of socks you must take (without looking) from a drawer of 10 red and 10 blue socks to guarantee a matching pair?", "choices": ["3", "2", "11", "10"], "answer": 0 },
+        { "q": "I have no mouth yet I speak; I have no ears yet I hear. What am I?", "choices": ["A shadow", "An echo", "Thunder", "A telephone"], "answer": 1 },
+        { "q": "A cowboy rides into town on Friday, stays exactly 3 days, and leaves on Friday. How is this possible?", "choices": ["He misremembers which days he stayed", "He travelled across time zones", "His horse is named Friday", "There is a holiday called Friday in his country"], "answer": 2 },
+        { "q": "What is the next number in the sequence: 1, 11, 21, 1211, 111221?", "choices": ["211312", "1321", "221131", "312211"], "answer": 3 },
+        { "q": "I buy a painting for $70 and sell it for $80. I then buy it back for $90 and sell it again for $100. What is my total profit?", "choices": ["$20", "$10", "$30", "$40"], "answer": 0 },
+        { "q": "Rearrange the letters N, E, W, D, O, O, R to make one word.", "choices": ["Woodnore", "One Word", "Norewood", "Rewood"], "answer": 1 }
       ]
     }
   ]
